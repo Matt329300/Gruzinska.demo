@@ -1,0 +1,24 @@
+# --- Materiały źródłowe (nie są częścią strony) ---
+# Zapisana strona wyników Google (zawiera dane konta i pliki Google)
+gaga restauracja gruzinska*.html
+gaga restauracja gruzinska*_files/
+# Surowe zdjęcia przed obróbką – używane wersje są w assets/img/
+unnamed*.webp
+unnamed*.jpg
+unnamed*.png
+
+# --- Ustawienia lokalne narzędzi ---
+.claude/
+.vscode/
+.idea/
+
+# --- Systemowe ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Na przyszłość (Node, zmienne środowiskowe, logi) ---
+node_modules/
+.env
+.env.*
+*.log
